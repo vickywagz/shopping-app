@@ -71,7 +71,9 @@ class _AdminLoginState extends State<AdminLogin> {
 
                 SizedBox(height: 30.0),
                 GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    loginAdmin();
+                  },
                   child: Center(
                     child: Container(
                       width: MediaQuery.of(context).size.width / 2,
